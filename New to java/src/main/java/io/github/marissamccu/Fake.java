@@ -9,9 +9,7 @@ public class Fake {
         this.age = age;
         this.lastName=lastName;
 
-    public int getAge(){
-        return this.age;
-        }
 
+    return this.age;
     }
 }
