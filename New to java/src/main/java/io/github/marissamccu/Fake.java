@@ -5,12 +5,13 @@ public class Fake {
     public String firstName;
     public String lastName;
 
-    public Fake(int age, String firstName, String lastName){
+    public int Fake(int age, String firstName, String lastName){
         this.age = age;
         this.lastName=lastName;
 
-        public int getAge(){
-            return age;
+    public int getAge(){
+        return this.age;
         }
+
     }
 }
